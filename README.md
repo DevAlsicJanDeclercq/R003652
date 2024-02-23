@@ -29,15 +29,3 @@ curl localhost:5000/FileList
 ```json
 [{"modified":"2024-02-23T08:12:30+00:00","name":"/test1"},{"modified":"2024-02-23T08:12:35+00:00","name":"/test2"}]
 ```
-
-## Execute PublicIP
-
-``` powershell
-curl localhost:5000/PublicIP
-```
-
-**Result:**
-
-```json
-"xxx.xxx.xxx.xxx"
-```
