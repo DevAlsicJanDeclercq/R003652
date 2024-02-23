@@ -10,6 +10,9 @@ Terminal 1:
 
 ``` powershell
 git clone <cloneurl>
+dotnet restore
+dotnet build
+cd ./FtpService
 dotnet run
 ```
 
